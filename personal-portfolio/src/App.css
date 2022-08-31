@@ -1,0 +1,5 @@
+body {
+    background-image: url('./assets/sky.jpeg');
+    background-size: fill;
+    background-repeat: repeat;
+}

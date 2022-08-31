@@ -1,0 +1,39 @@
+.logo {
+    color:steelblue;
+    justify-self: start;
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+.menu {
+    list-style: none;
+    text-align: center;
+    width: 75vw;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 10px;
+    justify-content: end;
+    margin-right: 24px;
+}
+
+
+.navbar {
+    background: rgb(240, 248, 255);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.nav-links {
+    color:saddlebrown;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.nav-links:hover{
+    background-color: #cae4fb;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
