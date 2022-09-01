@@ -1,0 +1,12 @@
+h2 {
+    font-size: 4vw;
+    text-align:center;
+}
+
+.about-container {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding: 6vh 10vw;
+    background-color: rgb(240, 248, 255, 0.7);
+    border-radius: 40px
+}
