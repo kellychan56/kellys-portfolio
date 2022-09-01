@@ -1,0 +1,24 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+    column-gap: 30px;
+    height: 80vh;
+    margin-top: 5vh;
+    margin-left: 24px;
+    margin-right: 24px
+}
+
+.grid-item {
+    height: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center
+}
+
+.title{
+    font-size: 3.5rem
+}

@@ -1,5 +1,5 @@
 .logo {
-    color:steelblue;
+    color: saddlebrown;
     justify-self: start;
     margin-left: 24px;
     cursor: pointer;
@@ -18,12 +18,12 @@
 
 
 .navbar {
-    background: rgb(240, 248, 255);
+    background: rgb(240, 248, 255, 0.85);
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .nav-links {
