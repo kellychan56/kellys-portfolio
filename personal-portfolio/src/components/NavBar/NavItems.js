@@ -11,7 +11,7 @@ const NavItems = [
     },
     {
         itemTitle: 'Projects',
-        url: '#',
+        url: '#projects',
         cName: 'nav-links'
     },
     {
