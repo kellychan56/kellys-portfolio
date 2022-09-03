@@ -5,13 +5,13 @@ const NavItems = [
         cName: 'nav-links'
     },
     {
-        itemTitle: 'Projects',
-        url: '#',
+        itemTitle: 'About',
+        url: '#about',
         cName: 'nav-links'
     },
     {
-        itemTitle: 'About',
-        url: '#',
+        itemTitle: 'Projects',
+        url: '#projects',
         cName: 'nav-links'
     },
     {
