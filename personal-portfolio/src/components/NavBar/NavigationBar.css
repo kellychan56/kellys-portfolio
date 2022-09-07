@@ -1,5 +1,5 @@
 .logo {
-    color: saddlebrown;
+    color: white;
     justify-self: start;
     margin-left: 24px;
     cursor: pointer;
@@ -18,23 +18,24 @@
 
 
 .navbar {
-    background: rgb(240, 248, 255, 0.85);
+    background: rgba(98, 81, 26, 0.28);
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.6vw;
-    border-radius: 30px;
+    font-size: 1.4rem;
+    border-radius: 20px;
 }
 
 .nav-links {
-    color:saddlebrown;
+    color:rgb(255, 255, 255);
     padding: 10px 10px;
     text-decoration: none;
 }
 
 .nav-links:hover{
-    background-color: #cae4fb;
+    background-color: white;
     border-radius: 4px;
     transition: all 0.2s ease-out;
+    color: slategray
 }
