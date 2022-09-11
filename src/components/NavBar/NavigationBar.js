@@ -7,7 +7,9 @@ const NavigationBar = () => {
     return (
         <>
             <nav className="navbar">
-                <h1 className="logo">Kelly</h1>
+                <h1>
+                    <a className="logo" href ="https://kellychan56.netlify.app/">Kelly</a>
+                </h1>
                 <ul className="menu">
                     {NavItems.map((item, index) => {
                         return (

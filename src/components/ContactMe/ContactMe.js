@@ -4,11 +4,13 @@ import './ContactMe.css'
 const ContactMe = () => {
   return (
     <>
-        <section id="ContactMe">
-            <h2 id="contact">contact me</h2>
-            <div className="contact-container">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa</p>
-            </div>
+        <section id="contact">
+            <h3 id="contact-me">contact me</h3>
+            <a className="contact-links" href="mailto:kelly.chan568@gmail.com">kelly.chan568@gmail.com</a>
+            <br/>
+            <a className="contact-links" href="https://github.com/kellychan56" target="_blank">github</a>
+            <br/>
+            <a className="contact-links" href="www.linkedin.com/in/kelly-chan-574631217" target="_blank">linkedin</a>
         </section>
     </>
       )
