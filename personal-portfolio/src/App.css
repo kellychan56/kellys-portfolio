@@ -3,9 +3,12 @@ body {
     background-size: fill;
     background-repeat: repeat;
     background-color: aliceblue;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 
 html{
-    scroll-behavior: smooth;;
+    scroll-behavior: smooth;
+
 }
