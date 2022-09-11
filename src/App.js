@@ -10,10 +10,15 @@ const App = () => {
   return (
     <>
           <NavigationBar/>
-      <body>
+      <body className='components'>
           <HomePage/>
           <AboutMe/>
           <Projects/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
           <ContactMe/>
       </body>
     </>

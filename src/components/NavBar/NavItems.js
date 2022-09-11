@@ -16,7 +16,7 @@ const NavItems = [
     },
     {
         itemTitle: 'Contact',
-        url: '#',
+        url: '#contact',
         cName: 'nav-links'
     }
 ]
