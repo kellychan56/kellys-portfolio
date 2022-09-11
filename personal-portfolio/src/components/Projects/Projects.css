@@ -1,0 +1,34 @@
+button {
+margin: 10px
+}
+
+.buttons {
+    display: inline-block;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 900px) {
+    .project-container {
+        grid-template-columns: repeat(1, 1fr);
+        height: 200%;
+    }
+  }
+
+.project-img {
+    width: 250px;
+    height: 250px;
+}
+
+.project-item {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

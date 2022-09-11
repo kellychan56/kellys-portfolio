@@ -9,8 +9,8 @@ import './App.css';
 const App = () => {
   return (
     <>
-      <body>
           <NavigationBar/>
+      <body>
           <HomePage/>
           <AboutMe/>
           <Projects/>
