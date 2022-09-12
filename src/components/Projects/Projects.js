@@ -8,7 +8,7 @@ const Projects = () => {
         <section id="Projects">
             <h2 id="projects">projects</h2>
             <div className="project-container">
-                {ProjectItems.map((item, index) => {
+                {ProjectItems.map((item) => {
                     return (
                         <>
                             <div className='project-item'>
@@ -16,8 +16,8 @@ const Projects = () => {
                                 <h3>{item.title}</h3>
                                 <p>{item.description}</p>
                                 <div className='buttons'>
-                                    <button> Try It Out </button>
-                                    <button> GitHub </button>
+                                    {/* <button> Try It Out </button> */}
+                                    <a href={item.gitUrl} target='_blank'><button > GitHub </button></a>
                                 </div>
                             </div>
                         </>
