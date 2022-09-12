@@ -2,15 +2,17 @@
     color: white;
     justify-self: start;
     margin-left: 7%;
+    font-size: 2.2rem;
     text-shadow: 2px 2px gray;
     text-decoration: none;
     cursor: pointer;
+    width: 200px
 }
 
 .menu {
     list-style: none;
     text-align: center;
-    width: 75vw;
+    width: 70vw;
     display: grid;
     grid-template-columns: repeat(4, auto);
     column-gap: 10px;
@@ -22,7 +24,6 @@
 .navbar {
     background: rgba(98, 81, 26, 0.28);
     height: 70px;
-    font-size: 1.4rem;
     border-radius: 20px;
 
     display: flex;
@@ -33,6 +34,7 @@
 .nav-links {
     color:rgb(255, 255, 255);
     padding: 10px 10px;
+    font-size: 1.5rem;
     text-decoration: none;
     text-shadow: 1px 1px gray;
 
