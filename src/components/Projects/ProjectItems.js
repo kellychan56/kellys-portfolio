@@ -2,31 +2,27 @@
 
 const ProjectItems = [
     {
-        projectImg: 'sky',
+        projectImg: 'tic-tac-toe.jpeg',
         title: 'Tic Tac Toe',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        cName: 'project-item1',
-        gitUrl:'https://github.com/kellychan56/tic-tac-toe-eeny-meeny-miny-moe'
+        description: 'Play tic-tac-toe with a friend and see who wins!',
+        technologies: 'JavaScript, HTML, CSS, React JS',
+        projectUrl: 'https://kc-tic-tac-toe.netlify.app/',
+        gitUrl:'https://github.com/kellychan56/kellys-personal-challenges/tree/main/react/tic-tac-toe'
     },
     {
-        projectImg: 'sky',
+        projectImg: 'night-shivers.jpeg',
         title: 'Night Shivers',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        cName: 'project-item2',
+        description: 'A text-based game. You wake up lost in a dark room, journey through the game and see what happens!',
+        technologies: 'Ruby',
+        projectUrl: '',
         gitUrl:'https://github.com/kellychan56/text-based-game-night-shivers'
     },
     {
-        projectImg: 'sky',
+        projectImg: 'treasure-hunt.jpeg',
         title: 'Infinity Stone Hunt',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        cName: 'project-item3',
-        gitUrl:'https://github.com/kellychan56?tab=repositories'
-    },
-    {
-        projectImg: 'sky',
-        title: 'Blog Post',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        cName: 'project-item4',
+        description: 'Travel through the Marvel Universe and find one of the Infinity Stones before Thanos does!',
+        technologies: 'HTML, CSS',
+        projectUrl: 'https://kc-treasure-hunt.netlify.app/',
         gitUrl:'https://github.com/kellychan56?tab=repositories'
     }
 ]
