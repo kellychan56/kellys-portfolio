@@ -8,10 +8,24 @@ const AboutMe = () => {
       <section id="AboutMe">
         <h2 id="about">about me</h2>
         <div className="about-container">
-          <div className='photo'>
-            <img className='personal-photo' src={Photo} alt="my photo"/>
+          <p className="about-me-intro">
+            My name is Kelly, and I'm a full-stack web developer currently based in San Diego, CA. Although I'm currently in San Diego, my roots are in Oakland, CA in the Bay Area! I love building things from Pokemon nanoblocks to IKEA furniture to websites! My journey as a software developer has just begun, so join me on my journey and see what I can do!
+          </p>
+          <div className='technologies-container'>
+            <h3 className='technologies-heading'>Languages, <br/> Frameworks, <br/> Technologies <br/> that I use:</h3>
+            <div className='technologies-list'>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Ruby</li>
+              <li>Ruby on Rails</li>
+              <li>SQL</li>
+              <li>PostgresQL</li>
+              <li>Postman</li>
+              <li>GitHub</li>
+            </div>
           </div>
-          <p className="about-me-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa</p>
         </div>
       </section>
     </>

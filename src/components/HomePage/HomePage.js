@@ -9,7 +9,7 @@ const HomePage = () => {
             <div className="home-container" id="homepage">
                 <div className="home-item">
                     <h1 className="title">Welcome to my portfolio!</h1>
-                    <p className="home-intro"> I'm a full-stack web developer based in San Diego, California.  </p>
+                    <p className="home-intro"> Join me on my journey as a full-stack web developer  </p>
                 </div>
                 <div className='home-item2-container'>
                     <div className="home-item2">

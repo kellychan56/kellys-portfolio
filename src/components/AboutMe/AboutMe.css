@@ -1,13 +1,19 @@
 h2 {
     font-size: 4vw;
     text-align:center;
+    padding-top: 100px;
+}
+
+#about {
+    padding-top: 200px;
+}
+
+#AboutMe {
+    margin: 30px;
 }
 
 .about-container {
-    display: grid;
-    grid-template-columns: 20% 75%;
-    column-gap: 5%;
-    padding: 6vh 5%;
+    padding: 60px;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 30px;
 }
@@ -18,6 +24,11 @@ h2 {
         height:
     }
   }
+
+.about-me-intro {
+    font-size: 1.5rem;
+    line-height: 36px
+}
 
 .personal-photo {
     width: 30%;
@@ -33,7 +44,21 @@ h2 {
     justify-content: center;
 }
 
-#AboutMe {
-    height: 80vh;
-    margin: 30px
-}
+ .technologies-container {
+    display: grid;
+    grid-template-columns: 35% 60%;
+    column-gap: 5%;
+    padding-top: 50px;
+ }
+
+ .technologies-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+ }
+
+ .technologies-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.3rem;
+ }

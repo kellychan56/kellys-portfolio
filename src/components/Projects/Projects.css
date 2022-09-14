@@ -8,10 +8,10 @@ margin: 10px
 
 .project-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     .project-container {
         grid-template-columns: repeat(1, 1fr);
         height: 200%;
@@ -21,6 +21,7 @@ margin: 10px
 .project-img {
     width: 250px;
     height: 250px;
+    object-fit: cover;
 }
 
 .project-item {
