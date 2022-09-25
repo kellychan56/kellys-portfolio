@@ -6,15 +6,19 @@
     padding: 50px 70px;
 }
 
-.contact-links {
+.contact-links{
     color: white;
     text-shadow: 2px 2px gray;
-    font-size: 3.5rem;
+    /* font-size: 3.5rem; */
+    text-decoration: none;
+}
+
+.contact-links-anchor {
     text-decoration: none;
 }
 
 #contact-me {
     color: white;
     text-shadow: 1.5px 1.5px gray;
-    font-size: 2rem;
+    font-size: 4.5vh;
 }

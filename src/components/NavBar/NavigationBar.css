@@ -10,6 +10,12 @@
     width: 200px
 }
 
+@media (max-width: 900px) {
+    .logo {
+        font-size: 4vw;
+    }
+}
+
 .menu {
     list-style: none;
     text-align: center;
@@ -58,8 +64,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    background: rgb(164, 161, 147);
+    background: rgba(168, 165, 151, 0.814);
     transition: 0.5s ease;
     border-radius: 0px;
-  }
-
+}

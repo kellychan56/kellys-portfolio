@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <>
       <section id="AboutMe">
-        <h2 id="about">about me</h2>
+        <h1 className="component-headers">about me</h1>
         <div className="about-container">
           <p className="about-me-intro">
             My name is Kelly, and I'm a full-stack web developer currently based in San Diego, CA. Although I'm currently in San Diego, my roots are in Oakland, CA in the Bay Area! I love building things from Pokemon nanoblocks to IKEA furniture to websites! My journey as a software developer has just begun, so join me on my journey and see what I can do!
