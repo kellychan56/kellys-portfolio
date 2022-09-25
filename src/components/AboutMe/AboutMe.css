@@ -1,13 +1,3 @@
-h2 {
-    font-size: 4vw;
-    text-align:center;
-    padding-top: 100px;
-}
-
-#about {
-    padding-top: 200px;
-}
-
 #AboutMe {
     margin: 30px;
 }
@@ -21,13 +11,13 @@ h2 {
 @media (max-width: 900px) {
     .about-container {
         grid-template-columns: repeat(1, 1fr);
-        height:
     }
-  }
+}
 
 .about-me-intro {
     font-size: 1.5rem;
-    line-height: 36px
+    line-height: 36px;
+    margin-top: 0px
 }
 
 .personal-photo {
@@ -44,21 +34,31 @@ h2 {
     justify-content: center;
 }
 
- .technologies-container {
+.technologies-container {
     display: grid;
     grid-template-columns: 35% 60%;
     column-gap: 5%;
     padding-top: 50px;
- }
+}
 
- .technologies-heading {
+.technologies-heading {
     display: flex;
     justify-content: center;
     font-size: 1.8rem;
- }
+}
 
- .technologies-list {
+.technologies-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     font-size: 1.3rem;
- }
+}
+
+@media (max-width: 900px) {
+    .technologies-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .technologies-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
