@@ -10,6 +10,12 @@ body {
     margin-right: 3%;
 }
 
+.component-headers {
+    font-size: 6vw;
+    text-align:center;
+    padding-top: 100px;
+}
+
 html{
     scroll-behavior: smooth;
 

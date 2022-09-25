@@ -16,7 +16,7 @@ margin: 10px
         grid-template-columns: repeat(1, 1fr);
         height: 200%;
     }
-  }
+}
 
 .project-img {
     width: 250px;

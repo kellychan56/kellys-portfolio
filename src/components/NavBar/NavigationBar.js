@@ -6,15 +6,15 @@ const NavigationBar = () => {
     const [stickyClass, setStickyClass] = useState('')
 
     useEffect(() => {
-      window.addEventListener('scroll', stickNavbar)
-      return () => window.removeEventListener('scroll', stickNavbar)
+        window.addEventListener('scroll', stickNavbar)
+        return () => window.removeEventListener('scroll', stickNavbar)
     }, [])
 
     const stickNavbar = () => {
-      if (window !== undefined) {
-        let windowHeight = window.scrollY;
-        windowHeight > 10 ? setStickyClass('sticky-nav') : setStickyClass('')
-      }
+        if (window !== undefined) {
+            let windowHeight = window.scrollY;
+            windowHeight > 5 ? setStickyClass('sticky-nav') : setStickyClass('')
+        }
     }
 
 
