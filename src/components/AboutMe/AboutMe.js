@@ -1,5 +1,4 @@
 import React from 'react'
-import Photo from './watercolor-icon-pics.jpeg'
 import './AboutMe.css'
 
 const AboutMe = () => {
