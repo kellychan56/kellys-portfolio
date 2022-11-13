@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.737e469b.css",
-    "main.js": "/static/js/main.ff6028ea.js",
-    "static/media/watercolor-icon-pics.jpeg": "/static/media/watercolor-icon-pics.8f6e750cc30cf6f3fe6e.jpeg",
-    "static/media/sky.jpeg": "/static/media/sky.5f24a4ef820034f16990.jpeg",
-    "static/media/treasure-hunt.jpeg": "/static/media/treasure-hunt.444b053094d546683505.jpeg",
-    "static/media/night-shivers.jpeg": "/static/media/night-shivers.4c226640e7d14a5ce603.jpeg",
+    "main.css": "/static/css/main.86e56a61.css",
+    "main.js": "/static/js/main.21456941.js",
+    "static/media/ff-tinder.png": "/static/media/ff-tinder.0eea78d979afa85f5ea5.png",
+    "static/media/mud-muzik.png": "/static/media/mud-muzik.b4da2468c6e58b57a32e.png",
     "static/media/tic-tac-toe.jpeg": "/static/media/tic-tac-toe.a1c536bcd800e41baf60.jpeg",
     "static/media/my-photo.jpg": "/static/media/my-photo.0b0f8d21d090a8463780.jpg",
     "index.html": "/index.html",
-    "main.737e469b.css.map": "/static/css/main.737e469b.css.map",
-    "main.ff6028ea.js.map": "/static/js/main.ff6028ea.js.map"
+    "main.86e56a61.css.map": "/static/css/main.86e56a61.css.map",
+    "main.21456941.js.map": "/static/js/main.21456941.js.map"
   },
   "entrypoints": [
-    "static/css/main.737e469b.css",
-    "static/js/main.ff6028ea.js"
+    "static/css/main.86e56a61.css",
+    "static/js/main.21456941.js"
   ]
 }
